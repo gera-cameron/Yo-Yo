@@ -17,9 +17,12 @@ module.exports = {
         required: true
     },
     phoneNumber: {
-      type: 'string',
-      required: true,
-      maxLength : 11,
+        type: 'string',
+        required: true,
+        maxLength : 11,
+    },
+    address : {
+        type: 'string'
     }
   }
 };
